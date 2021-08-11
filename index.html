@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/003e4f6bd0.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@700;900&display=swap" rel="stylesheet">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="bootstrap" href="bootstrap.min.css">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="jquery-3.6.0.min.js"></script>
+
+    <title>Todo Gaming - ARG</title>
+    
+</head>
+
+<body>
+    <header>
+        <!--<img src="/recursos/logo1.jpg" alt="" class="logo">-->
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__list-item">Noticias<a href="" class="nav__link"></a></li>
+                <li class="nav__list-item">Reseñas<a href="" class="nav__link"></a></li>
+            </ul>    
+        </nav>
+
+    </header>
+
+    <main>
+        <h1 class="main__title">Encontrá toda la info sobre lo último en el mundo del gaming.</h1>
+        <p class="main__intro">Esta es una página de consulta en permanente cambio. Por eso iremos agregando juegos al catálogo a medida que sea posible.</p>
+
+        <div class="content">
+            <div class="search-bar">
+                <input id="searchInput" type="text" class="search-bar__input" placeholder="Buscar..." aria-label="busqueda">
+                <button id="search" onclick= "buscar()" class="search-bar__submit"><i class="fas fa-search" aria-label="enviar busqueda"></i></button>
+            </div>
+        </div>
+
+        <a href="" class="btn btn--primary">Loguearse!</a> 
+        <a href="" class="btn btn--secondary">Registrarse</a>
+
+        <div id="juegos"></div>
+        
+
+    
+    </main>
+   
+    
+    <script src="script.js"></script>
+</body>
+</html>
